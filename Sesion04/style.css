@@ -1,0 +1,9 @@
+body{background-color: rgba(155, 50, 35, 2.0); color: rgb(255, 0, 255);}
+p{background-color: black;
+border: 20px yellow solid;
+padding: 10px 20px;
+margin: 30px 50px;}
+
+.parrafo01{background-color: rgba(0, 80, 90, 7.0); color: rgb(0, 255, 255);}
+
+h1 h2 h3{background-color: rgb(150, 30, 200); color: white;}
