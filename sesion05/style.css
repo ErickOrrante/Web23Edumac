@@ -1,0 +1,33 @@
+body{background-color: white;}
+
+.contenedorPadre{
+	background-color: lightblue;
+	border: 5px blue solid;
+	height: 1000px;
+	/* lo volvemos flexible */
+	display: flex;
+	/*por default*/
+	flex-direction: column;
+	/* para acomodar de acuerdo al eje principal */
+	justify-content: center;
+	/* para acomodar de acuerdo al eje perpendicular */
+	align-items: flex-end;
+}
+
+p{
+	width: 20%;
+	height: 100px;
+	padding: 30px;
+}
+
+.item1{
+	background-color: yellow;
+
+}
+
+.item2{
+	background-color: pink;
+}
+.item3{
+	background-color: white;
+}
