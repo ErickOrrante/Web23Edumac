@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
+
+header{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 20px 40px;
+}
+
+body{
+	font-family: "Montserrat";
+}
+
+header img{
+	width: 15%;
+}
+
+nav{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	font-size: 25px;
+	font-family: "Montserrat";
+	font-weight: 200;
+	color: black;
+	text-decoration: none;
+}
+
+.secc1{
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/landing.jpeg');
+	background-size: cover;
+	height: 900px;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.secc1 h1{
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.secc1 p{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.secc2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.secc2 h1{
+	font-size: 30px;
+	font-weight: 500;
+	text-decoration: underline rgb(47, 177, 88) 7px;
+	text-align: center;
+	text-underline-offset: 15px;
+}
+
+.div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.div section{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 100px;
+}
+
+section div section img{
+	width: 150px;
+}
+
+section div section h4{
+	font-size: 25px;
+	font-weight: 300 bold;
+	color: rgb(47, 177, 88);
+}
+
+section div section p{
+	font-size: 20px;
+	font-weight: 100;
+	color: black;
+}
+
+.secc3{
+	background-color: rgb(47, 177, 88);
+	background-image: url(https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/spotify-icon-white.png);
+	background-repeat: no-repeat;
+	background-size: 20%;
+	margin: 50px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 700px;
+	padding: 0 100px;
+}
+
+.secc3 h1{
+	font-size: 30px;
+	text-decoration: underline 3px;
+	text-underline-offset: 10px;
+}
+
+.secc3 h2{
+	ont-size: 30px;
+}
+
+.secc3 p{
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.secc3 img{
+	height: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
