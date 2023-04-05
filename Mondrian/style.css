@@ -1,0 +1,158 @@
+.FatherGrid{
+	display: grid;
+	background-color: black;
+	padding: 20px;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	height: 1000px;
+	width: 1000px;
+}
+
+div{
+	border: 10px black solid;
+}
+
+.cuad01{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad02{
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad03{
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad04{
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: yellow;
+	margin: 20px black solid;
+}
+
+.cuad05{
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad06{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 7;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad07{
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad08{
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad09{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad10{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-color: red;
+	margin: 20px black solid;
+}
+
+.cuad11{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 8;
+	background-color: blue;
+	margin: 20px black solid;
+}
+
+.cuad12{
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+.cuad13{
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-color: yellow;
+	margin: 20px black solid;
+}
+
+.cuad14{
+	grid-column-start: 5;
+	grid-column-end: 8;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	background-color: white;
+	margin: 20px black solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

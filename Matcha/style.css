@@ -56,6 +56,13 @@ aside a{
 	border: rgb(88,170,58);
 }
 
+.botonVerdeF{
+	background-color: rgb(10, 64, 69);
+	border: rgb(10, 64, 69);
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
 
 .fonfFancy{font-family: 'Alegreya', serif; color: rgb(10, 64, 69);}
 
@@ -63,7 +70,7 @@ aside a{
 
 .segundaSecc{
 	text-align: center;
-	margin: 200px 0;
+	margin: 100px 0;
 }
 
 .segundaSecc p{
@@ -73,6 +80,26 @@ aside a{
 }
 
 input{
+	height: 45px;
+	width: 200px;
+	border-radius: 7px;
+	border: 1px #9b9b9b solid;
+	margin-right: -16px;
+}
 
+.secc3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.secc3 article{
+	width: 40%;
+	margin: 30px ;
+
+}
+
+.secc video{
+	width: 40%;
 }
 

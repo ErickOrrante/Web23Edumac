@@ -102,7 +102,8 @@ section div section p{
 	background-color: rgb(47, 177, 88);
 	background-image: url(https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/spotify-icon-white.png);
 	background-repeat: no-repeat;
-	background-size: 20%;
+	background-size: 200px;
+	background-position: center;
 	margin: 50px;
 	color: white;
 	display: flex;
